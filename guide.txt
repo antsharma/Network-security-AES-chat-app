@@ -1,0 +1,22 @@
+unzip file in the folder jisme client- server ki file rakhega
+crytopp880 folder directory mein terminal open kar and run this command:
+make
+
+2-4min run hoga then parent folder mein aaja jaha cleint server ki file rakhi hai nd 3 terminals open kar
+ek terminal mein server ki commmand run kar:
+g++ server.cpp -o server -lcryptopp -L./cryptopp880
+
+phir executable open karde iss command se 
+./server
+
+dono terminals mein client ke commnads run kar
+g++ client.cpp -o client1 -lcryptopp -L./cryptopp880
+
+then executable run karde 
+./client1
+
+simailar for other client 
+g++ client.cpp -o client2 -lcryptopp -L./cryptopp880\
+
+then excuatble
+./client2
